@@ -199,7 +199,11 @@ img{
     .active::after{
         background-color: var(--white-color);
     }
-
+    /* Header Home*/
+    .header_tag_line{
+        margin-top: 20rem;
+    }
+    
     /* About Section */
     .about_container{
         grid-template-columns: repeat(2, 1.7fr);
@@ -240,7 +244,7 @@ img{
 }
 .header_tag_line{
     font-size:var(--bigger-font-size);
-    margin-top: 20rem;
+    margin-top: 15rem;
     margin-bottom: 2rem;
 }
 
